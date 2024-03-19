@@ -1,0 +1,10 @@
+We Are the Champions,Toxic,75.0
+We Are the Champions,Billie Jean,70.0
+We Are the Champions,Hotel California,69.0
+We Are the Champions,La Tortura,54.0
+Toxic,Billie Jean,75.0
+Toxic,Hotel California,73.0
+Toxic,La Tortura,57.0
+Billie Jean,Hotel California,71.0
+Billie Jean,La Tortura,56.0
+Hotel California,La Tortura,57.0

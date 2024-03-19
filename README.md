@@ -1,6 +1,40 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/-DbjSLZ0)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=13950380)
 # CS214 Spring2024 - PA4 - Similarity
+# Similarity Calculator
+
+This Java program calculates normalized response similarity among songs and users based on the provided rankings.
+
+## Prerequisites
+
+- Java Development Kit (JDK) installed on your system
+- Input files containing the names of songs and rankings
+
+## Usage
+
+1. **Compile the Java code**:
+
+    ```
+    javac SimilarityCalculator.java
+    ```
+
+2. **Run the program**:
+
+    ```
+    java SimilarityCalculator <songs_file> <rankings_file> <song_similarity_output_file> <user_similarity_output_file>
+    ```
+
+    Replace `<songs_file>`, `<rankings_file>`, `<song_similarity_output_file>`, and `<user_similarity_output_file>` with the actual file paths. These files should be in the same directory as the Java code or you should provide the correct path to these files.
+
+3. **Output**:
+
+    - The program will calculate the similarity measures and write the results to the specified output files (`song_similarity_output_file` and `user_similarity_output_file`).
+
+## File Formats
+
+- The songs file should contain one song name per line.
+- The rankings file should contain user rankings for songs, with each line representing a user's rankings separated by spaces.
+
 
 ## Motivation
 
